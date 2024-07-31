@@ -157,13 +157,7 @@ public class MyVector {
 		
 		// Printing all elements of the vector to console
 		System.out.println("Vector elements = " + vector.toString());
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
