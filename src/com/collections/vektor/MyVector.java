@@ -82,12 +82,12 @@ public class MyVector {
 		
 		// Checking if vector contains all 75.9, 63.7, 36.0 elements
 		boolean containsAllOrNot = vector.containsAll(list);
-		System.out.println("Vector contains all elements: " + containsOrNot);
+		System.out.println("Vector contains all elements: " + containsOrNot); // true
 		
 		// Checking if vector contains all 75.9, 63.7, 36.0, 72.0 elements
 		list.add(72.0);
 		boolean containsAllOrNot1 = vector.containsAll(list);
-		System.out.println("Vector contains all elements: " + containsAllOrNot1);
+		System.out.println("Vector contains all elements: " + containsAllOrNot1); // false
 		
 		// Copying vector into an array
 		Double [] array = new Double [3];
